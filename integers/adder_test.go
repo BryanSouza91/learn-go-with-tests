@@ -18,6 +18,7 @@ func ExampleAdd() {
 	fmt.Println(sum)
 	// Output: 6
 }
+
 func assertCorrectMessage(t testing.TB, sum, expected int) {
 	t.Helper()
 	if sum != expected {
