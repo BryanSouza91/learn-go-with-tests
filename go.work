@@ -1,0 +1,10 @@
+go 1.19
+
+use (
+	./arrays-slices
+	./hello-world
+	./integers
+	./iteration
+	./pointers-errors
+	./structs-methods-interfaces
+)
