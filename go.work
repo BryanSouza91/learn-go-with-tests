@@ -13,4 +13,5 @@ use (
 	./reflection
 	./select
 	./structs-methods-interfaces
+	./sync
 )
