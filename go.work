@@ -1,4 +1,4 @@
-go 1.19
+go 1.22.2
 
 use (
 	./arrays-slices
@@ -10,5 +10,6 @@ use (
 	./maps
 	./mocking
 	./pointers-errors
+	./select
 	./structs-methods-interfaces
 )
