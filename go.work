@@ -10,6 +10,7 @@ use (
 	./maps
 	./mocking
 	./pointers-errors
+	./reflection
 	./select
 	./structs-methods-interfaces
 )
