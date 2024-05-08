@@ -3,6 +3,7 @@ go 1.22.2
 use (
 	./arrays-slices
 	./concurrency
+	./context
 	./dependency-injection
 	./hello-world
 	./integers
