@@ -12,6 +12,7 @@ use (
 	./mocking
 	./pointers-errors
 	./reflection
+	./roman-numerals
 	./select
 	./structs-methods-interfaces
 	./sync
