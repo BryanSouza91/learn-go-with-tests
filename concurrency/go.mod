@@ -1,3 +1,3 @@
-module learn-go-with-tests/concurrency
+module github.com/BryanSouza91/learn-go-with-tests/concurrency
 
-go 1.19
+go 1.22.2
