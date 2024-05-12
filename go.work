@@ -10,7 +10,7 @@ use (
 	./integers
 	./iteration
 	./maps
-	./maths
+	./maths/clockface
 	./mocking
 	./pointers-errors
 	./reflection

@@ -3,8 +3,9 @@ package svg
 import (
 	"fmt"
 	"io"
-	cf "learn-go-with-tests/clockface"
 	"time"
+	
+	cf "learn-go-with-tests/clockface"
 )
 
 const (
