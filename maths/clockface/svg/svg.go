@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 	
-	cf "learn-go-with-tests/clockface"
+	cf "github.com/BryanSouza91/learn-go-with-tests/clockface"
 )
 
 const (

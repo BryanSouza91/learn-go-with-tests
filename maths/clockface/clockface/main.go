@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"learn-go-with-tests/clockface/svg"
+	"github.com/BryanSouza91/learn-go-with-tests/clockface/svg"
 )
 
 func main() {

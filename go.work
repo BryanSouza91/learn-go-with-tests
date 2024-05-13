@@ -13,6 +13,7 @@ use (
 	./maths/clockface
 	./mocking
 	./pointers-errors
+	./reading-files
 	./reflection
 	./roman-numerals
 	./select
