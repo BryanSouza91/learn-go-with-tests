@@ -18,18 +18,20 @@
 </nav>
 <main>
 
-<h1>hello world</h1>
-
-<p>This is a description</p>
-
-Tags: <ul><li>go</li><li>tdd</li></ul>
-
-<article>
-    <p>
-        [{.Body}}
-    </p>
-</article>
-
+<ol>
+    <li>
+        <a href="/post/hello-world">
+            Hello World
+        </a>
+    </li>
+    
+    <li>
+        <a href="/post/hello-world-2">
+            Hello World 2
+        </a>
+    </li>
+    
+</ol>
 
 </main>
 <footer>

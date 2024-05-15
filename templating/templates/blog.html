@@ -4,4 +4,5 @@
 <p>{{.Description}}</p>
 
 Tags: <ul>{{range .Tags}}<li>{{.}}</li>{{end}}</ul>
+{{template "body" .}}
 {{template "bottom" .}}

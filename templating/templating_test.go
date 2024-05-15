@@ -5,14 +5,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/BryanSouza91/learn-go-with-tests/blogposts"
 	"github.com/BryanSouza91/learn-go-with-tests/blogrenderer"
 	approvals "github.com/approvals/go-approval-tests"
 )
 
 func TestRender(t *testing.T) {
 	var (
-		aPost = blogposts.Post{
+		aPost = blogrenderer.Post{
 			Title:       "hello world",
 			Body:        "This is a post",
 			Description: "This is a description",
@@ -35,11 +34,22 @@ func TestRender(t *testing.T) {
 
 		approvals.VerifyString(t, buf.String())
 	})
+
+	t.Run("it renders an index of posts", func(t *testing.T) {
+		buf := bytes.Buffer{}
+		posts := []blogrenderer.Post{{Title: "Hello World"}, {Title: "Hello World 2"}}
+
+		if err := postRenderer.RenderIndex(&buf, posts); err != nil {
+			t.Fatal(err)
+		}
+
+		approvals.VerifyString(t, buf.String())
+	})
 }
 
 func BenchmarkRender(b *testing.B) {
 	var (
-		aPost = blogposts.Post{
+		aPost = blogrenderer.Post{
 			Title:       "hello world",
 			Body:        "This is a post",
 			Description: "This is a description",
