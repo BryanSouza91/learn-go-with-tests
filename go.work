@@ -1,4 +1,4 @@
-go 1.22.2
+go 1.22.3
 
 use (
 	./arrays-slices
@@ -19,4 +19,5 @@ use (
 	./select
 	./structs-methods-interfaces
 	./sync
+	./templating
 )
