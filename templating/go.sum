@@ -1,2 +1,6 @@
+github.com/BryanSouza91/learn-go-with-tests v0.0.1 h1:2ShmoNt1CRln4sLSSMdBNdA9VGy8FlTaJBPCgnEAWjM=
+github.com/BryanSouza91/learn-go-with-tests v0.0.1/go.mod h1:w+hnV2SYebYKSHE71dwCW6t5F4PIA9j3pyNwhAu7Qlw=
+github.com/BryanSouza91/learn-go-with-tests v0.0.2 h1:+E45jyj6j2OdCMVKqz8Wp4Qr36W1xGkejhB6WRuXhls=
+github.com/BryanSouza91/learn-go-with-tests v0.0.2/go.mod h1:w+hnV2SYebYKSHE71dwCW6t5F4PIA9j3pyNwhAu7Qlw=
 github.com/approvals/go-approval-tests v0.0.0-20240417152556-434b9105e958 h1:7/wXpCITDdUf5qOuxr8e9YwFEJIPkZZyD0Z3nvV1Zwc=
 github.com/approvals/go-approval-tests v0.0.0-20240417152556-434b9105e958/go.mod h1:PJOqSY8IofNv3heAD6k8E7EfFS6okiSS9bSAasaAUME=
