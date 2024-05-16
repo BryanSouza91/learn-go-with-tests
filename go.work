@@ -6,6 +6,7 @@ use (
 	./concurrency
 	./context
 	./dependency-injection
+	./generics
 	./hello-world
 	./integers
 	./iteration
